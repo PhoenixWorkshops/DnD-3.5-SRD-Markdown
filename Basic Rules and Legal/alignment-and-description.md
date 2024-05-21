@@ -257,27 +257,18 @@ Alternatively, refer to Table: Random Starting Ages and roll dice to
 determine how old your character is.
 
   -------------- -------------- -------------- -------------- --------------
-  Race           Adulthood      Barbarian\     Bard\          Cleric\
-                                Rogue\         Fighter\       Druid\
-                                Sorcerer       Paladin\       Monk\
-                                               Ranger         Wizard
-
-  Human          15 years       +1d4           +1d6           +2d6
-
-  Dwarf          40 years       +3d6           +5d6           +7d6
-
-  Elf            110 years      +4d6           +6d6           +10d6
-
-  Gnome          40 years       +4d6           +6d6           +9d6
-
-  Half-elf       20 years       +1d6           +2d6           +3d6
-
-  Half-orc       14 years       +1d4           +1d6           +2d6
-
-  Halfling       20 years       +2d4           +3d6           +4d6
-  -------------- -------------- -------------- -------------- --------------
-
-  : Table: Random Starting Ages
+  
+|   Race   | Adulthood | Barbarian \Rogue\Sorcerer | Bard\ Fighter\Paladin\Ranger | Cleric\Druid\Monk\Wizard |
+| :------: | :-------: | :-----------------------: | :--------------------------: | :----------------------: |
+|  Human   | 15 Years  |           +1d4            |             +1d6             |           +2d6           |
+|  Dwarf   | 40 Years  |           +3d6            |             +5d6             |           +7d6           |
+|   Elf    | 110 Years |           +4d6            |             +6d6             |          +10d6           |
+|  Gnome   | 40 Years  |           +4d6            |             +6d6             |           +9d6           |
+| Half-elf | 20 Years  |           +1d6            |             2d6              |           3d6            |
+| Half-orc | 14 Years  |           +1d4            |             +1d6             |           +2d6           |
+| Halfling | 20 Years  |           +2d4            |             +3d6             |           +4d6           |
+ ^RandomStartingAges
+ -------------- -------------- -------------- -------------- --------------
 
 With age, a character's physical ability scores decrease and his or her
 mental ability scores increase (see Table: Aging Effects). The effects
@@ -296,21 +287,21 @@ large die from pestilence, accidents, infections, or violence before
 getting to venerable age.
 
   ------------------------------------------------------------------------ --------------- ----------- -------------- -------------
-  Race                                                                     Middle Age^1^   Old^2^      Venerable^3^   Maximum Age
-  Human                                                                    35 years        53 years    70 years       +2d20 years
-  Dwarf                                                                    125 years       188 years   250 years      +2d% years
-  Elf                                                                      175 years       263 years   350 years      +4d% years
-  Gnome                                                                    100 years       150 years   200 years      +3d% years
-  Half-elf                                                                 62 years        93 years    125 years      +3d20 years
-  Half-orc                                                                 30 years        45 years    60 years       +2d10 years
-  Halfling                                                                 50 years        75 years    100 years      +5d20 years
-  1 At middle age, --1 to Str, Dex, and Con; +1 to Int, Wis, and Cha.                                                 
-  2 At old age, --2 to Str, Dex, and Con; +1 to Int, Wis, and Cha.                                                    
-  3 At venerable age, --3 to Str, Dex, and Con; +1 to Int, Wis, and Cha.                                              
+ 
+|   Race   | Middle Age$^1$ |  Old$^2$  | Venerable$^3$ | Maximum Age |
+| :------: | :------------: | :-------: | :-----------: | :---------: |
+|  Human   |    35 Years    | 53 Years  |   70 Years    | +2d20 Years |
+|  Dwarf   |   125 Years    | 188 Years |   250 Years   | +2d% Years  |
+|   Elf    |   175 years    | 263 years |   350 years   | +4d% years  |
+|  Gnome   |   100 years    | 150 years |   200 years   | +3d% years  |
+| Half-elf |    62 years    | 93 years  |   125 years   | +3d20 years |
+| Half-orc |    30 years    | 45 years  |   60 years    | +2d10 years |
+| Halfling |    50 years    | 75 years  |   100 years   | +5d20 years |
+  ^AgingEffects
+  $^1$ At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha.                                                 
+  $^2$ At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha.                                                    
+  $^3$ At venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha.                                              
   ------------------------------------------------------------------------ --------------- ----------- -------------- -------------
-
-  : Table: Aging Effects
-
 ### Height and Weight
 
 The dice roll given in the Height Modifier column determines the
@@ -319,21 +310,22 @@ multiplied by the dice roll or quantity given in the Weight Modifier
 column determines the character's extra weight beyond the base weight.
 
   ------------------ ------------- ----------------- ------------- -----------------
-  Race               Base Height   Height Modifier   Base Weight   Weight Modifier
-  Human, male        4´ 10˝        +2d10             120 lb.       × (2d4) lb.
-  Human, female      4´ 5˝         +2d10             85 lb.        × (2d4) lb.
-  Dwarf, male        3´ 9˝         +2d4              130 lb.       × (2d6) lb.
-  Dwarf, female      3´ 7˝         +2d4              100 lb.       × (2d6) lb.
-  Elf, male          4´ 5˝         +2d6              85 lb.        × (1d6) lb.
-  Elf, female        4´ 5˝         +2d6              80 lb.        × (1d6) lb.
-  Gnome, male        3´ 0˝         +2d4              40 lb.        × 1 lb.
-  Gnome, female      2´ 10˝        +2d4              35 lb.        × 1 lb.
-  Half-elf, male     4´ 7˝         +2d8              100 lb.       × (2d4) lb.
-  Half-elf, female   4´ 5˝         +2d8              80 lb.        × (2d4) lb.
-  Half-orc, male     4´ 10˝        +2d12             150 lb.       × (2d6) lb.
-  Half-orc, female   4´ 5˝         +2d12             110 lb.       × (2d6) lb.
-  Halfling, male     2´ 8˝         +2d4              30 lb.        × 1 lb.
-  Halfling, female   2´ 6˝         +2d4              25 lb.        × 1 lb.
+  
+|       Race       | Base Height | Height Modifier | Base Weight | Weight Modifier |
+| :--------------: | :---------: | :-------------: | :---------: | :-------------: |
+|   Human, male    |   4´ 10˝    |      +2d10      |   120 lb.   |   × (2d4) lb.   |
+|  Human, female   |    4´ 5˝    |      +2d10      |   85 lb.    |   × (2d4) lb.   |
+|   Dwarf, male    |    3´ 9˝    |      +2d4       |   130 lb.   |   × (2d6) lb.   |
+|  Dwarf, female   |    3´ 7˝    |      +2d4       |   100 lb.   |   × (2d6) lb.   |
+|    Elf, male     |    4´ 5˝    |      +2d6       |   85 lb.    |   × (1d6) lb.   |
+|   Elf, female    |    4´ 5˝    |      +2d6       |   80 lb.    |   × (1d6) lb.   |
+|   Gnome, male    |    3´ 0˝    |      +2d4       |   40 lb.    |     × 1 lb.     |
+|  Gnome, female   |   2´ 10˝    |      +2d4       |   35 lb.    |     × 1 lb.     |
+|  Half-elf, male  |    4´ 7˝    |      +2d8       |   100 lb.   |   × (2d4) lb.   |
+| Half-elf, female |    4´ 5˝    |      +2d8       |   80 lb.    |   × (2d4) lb.   |
+|  Half-orc, male  |   4´ 10˝    |      +2d12      |   150 lb.   |   × (2d6) lb.   |
+| Half-orc, female |    4´ 5˝    |      +2d12      |   110 lb.   |   × (2d6) lb.   |
+|  Halfling, male  |    2´ 8˝    |      +2d4       |   30 lb.    |     × 1 lb.     |
+| Halfling, female |    2´ 6˝    |      +2d4       |   25 lb.    |     × 1 lb.     |
+^RandomHeightAndWeight
   ------------------ ------------- ----------------- ------------- -----------------
-
-  : Table: Random Height and Weight
